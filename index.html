@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="mailto:vishal.viswanaathan@gmail.com" class="nav__logo">VISHAL</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <span>About Us</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <span>Experience</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#project" class="nav__link">
+                            <span>Projects</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="mailto:vishal.viswanaathan@gmail.com" class="nav__link">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main>
+        <!--==================== HOME ====================-->
+        <section class="container section section__height" id="profile">
+            <div class="section__pic-container">
+                <img src="assets/cropped_image.png" alt="profile picture" />
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Vishal Viswanathan</h1>
+                <p class="section__text__p2">Frontend Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2"
+                        onclick="window.open('https://drive.google.com/file/d/148TvFsRzwTEJ6B_kAlzO82FVgth8rJ7p/view?usp=sharing')">
+                        Download CV
+                    </button>
+                    <button class="btn btn-color-1" onclick="location.href='https://www.linkedin.com/in/vishal-v-27088422a/'">
+                        Contact Info
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <img src="assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/vishal-v-27088422a/'" />
+                    <img src="assets/github.png" alt="My Github profile" class="icon"
+                        onclick="location.href='https://github.com/VISHALVKY'" />
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== ABOUT ====================-->
+        <section class="container section section__height" id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="assets/profile card.jpg" alt="Profile picture" class="about-pic" />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="assets/experience.png" alt="Experience icon" class="icon" />
+                            <h3>Experience</h3>
+                            <p>6+ months <br />Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="assets/education.png" alt="Education icon" class="icon" />
+                            <h3>Education</h3>
+                            <p>BE.Computer Science and Engineering</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p style="text-align: justify;">Committed to continuous learning and staying updated on emerging
+                            technologies. Excellent communication and collaboration abilities. Quick learner and
+                            adaptable team player with a strong analytical mindset. Ready to contribute effectively in
+                            the software industry.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+        </section>
+        
+        <!--==================== EXPERIENCE ====================-->
+        <section class="container section section__height" id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>React JS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Bootstarp</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Java</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>SpringBoot</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>SQL</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#project'" />
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="container section section__height" id="project">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/1.Amazon.png" alt="Project 1" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Amazon Clone</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/amazon-clone'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://amazone-cloneapp.netlify.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/2.Budget.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Budget Planner</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/Budget-App-React'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://budgetplanner-react.netlify.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/3.Calc.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Calculator</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/React-Calculator'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://calculator-reactwebsite.netlify.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/4.Color.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Color Generator</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/Color-Generator'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://color-generators-react.vercel.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/14.crud toastify.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">CRUD App</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/crud-app-using-toastify'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://crud-app-using-toastify.vercel.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/13.flipkart clone.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Flipkart Clone</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/flipkart-clone'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://flipkart-clone-henna-one.vercel.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/5.Imagify.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Image Generator</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/Imagify'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://imagify-self.vercel.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/6.Markdown.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Markdown Previewer</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/Markdown-Previewer'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://react-markdown-previewers.netlify.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/7.Notes.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Notes App</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/Note-App'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://note-app-flame-phi.vercel.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/8.Qrcode.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">QR Code Generator</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/QR-Code'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://qr-code-silk-eight.vercel.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/11.Todo.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Todo App</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/Todo-App'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://todo-app-bice-one-78.vercel.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/12.Weather.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Weather App</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/VISHALVKY/Weather-App'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://weather-app-flax-eta-89.vercel.app/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" /> -->
+        </section>
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="script.js"></script>
+</body>
+
+</html>
